@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tarot Course</title>
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    function trackTelegramClick() {
+      console.log('Telegram button clicked');
+    }
+  </script>
+</head>
+<body>
+
+  <!-- Buy button (top) -->
+  <div class="buy-button-wrapper">
+    <a href="https://www.paypal.com/paypalme/evaceremnyh6" class="buy-button" target="_blank">🔮 Buy the Course</a>
+  </div>
+
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Unlock the Mysteries of Tarot</h1>
+      <p>Join our magical course and transform your life</p>
+      <a href="#course" class="cta-button">Explore the Course</a>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <h2>About the Course</h2>
+    <p>This Tarot course guides you from beginner to advanced, helping you master the arcana and intuition.</p>
+  </section>
+
+  <section id="curriculum" class="section dark">
+    <h2>What You'll Learn</h2>
+    <ul>
+      <li>Major & Minor Arcana meanings</li>
+      <li>How to do readings</li>
+      <li>Spreads for love, career, and purpose</li>
+      <li>Boosting your intuition</li>
+    </ul>
+  </section>
+
+  <section id="testimonials" class="section">
+    <h2>What Our Students Say</h2>
+    <blockquote>“This course changed my spiritual path forever!” – Luna M.</blockquote>
+    <blockquote>“Highly recommended for anyone wanting to understand Tarot deeply.” – Alex R.</blockquote>
+  </section>
+
+  <section class="section dark">
+    <h2>Ready to Begin?</h2>
+    <p>Enroll now and start your journey into the Tarot.</p>
+    <a href="https://t.me/taroen" class="cta-button" target="_blank" onclick="trackTelegramClick()">Join Telegram Channel</a>
+  </section>
+
+  <section class="section">
+    <h2>Get a Free Tarot Lesson</h2>
+    <p>Enter your email and receive a free intro PDF to Tarot reading.</p>
+    <form action="https://formspree.io/f/YOUR_CODE_HERE" method="POST" class="email-form">
+      <input type="email" name="email" placeholder="Your email" required />
+      <button type="submit">Send me the guide</button>
+    </form>
+  </section>
+
+  <!-- Question form -->
+  <section class="section dark">
+    <h2>Ask a Question</h2>
+    <form action="https://formspree.io/f/YOUR_CODE_HERE" method="POST" class="question-form">
+      <input type="text" name="name" placeholder="First Name" required />
+      <input type="text" name="surname" placeholder="Last Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="question" rows="5" placeholder="Your question..." required></textarea>
+      <button type="submit">Send Question</button>
+    </form>
+  </section>
+
+  <!-- Buy button (bottom) -->
+  <div class="buy-button-wrapper">
+    <a href="https://www.paypal.com/paypalme/evaceremnyh6" class="buy-button" target="_blank">💜 Buy Now</a>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Tarot Mastery. All rights reserved.</p>
+  </footer>
+
+  <!-- Magical CSS pattern background -->
+  <div class="web-pattern"></div>
+</body>
+</html>
